@@ -25,6 +25,7 @@ func CommandCatch(cfg *api.Config) error {
     defer ticker.Stop()
     count := 0
     fmt.Printf("Throwing a Pokeball at %v ", cfg.PokemonName)
+
     for {
         select {
         case <-ticker.C:
@@ -47,7 +48,26 @@ func CommandCatch(cfg *api.Config) error {
     if random_num.Cmp(base_xp) == +1 {
         cfg.Pokedex[pokemon.Name] = *pokemon;
         fmt.Printf("\n%v was caught!\n", pokemon.Name) 
+        fmt.Println(`
+                @@@@@@@&&&&&&@@@,
+            @@@&(((((((((((((((((&@@@
+        @@&       ((((((((((((((((((&@@    
+       @@&         ((((((((((((((((((((&@   
+      @&(         (((((((((((((((((((((((&@ 
+    @@&((((   ,((((((((((########&((((((((&@
+    @&(((((((((((((((((##&       ##((((((((&
+    @(((((&#############&         #####&((((
+    &%%##################&       ###########
+    @%%%%&**            &########%     &####
+     &*******                              &
+     \&*******                            &
+      *&********                         & 
+       **&*********                   *&    
+        ***&**************     ******&      
+              *&*****************&*        
+        `)
         fmt.Printf("\nNow you can Inspect your pokemon by using the 'inspect <pokemon-name>' command\n") 
+        fmt.Println()
     } else {
         fmt.Printf("\n%v escaped!\n", pokemon.Name) 
         fmt.Println()

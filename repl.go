@@ -12,7 +12,16 @@ import (
 func Start_repl(cfg *api.Config) {
 	reader := bufio.NewScanner(os.Stdin)
 
+    fmt.Println()
 	fmt.Println("welcome to pokedex! ;)")
+	fmt.Println()
+    fmt.Println("██████╗  ██████╗ ██╗  ██╗███████╗██████╗ ███████╗██╗  ██╗")
+    fmt.Println("██╔══██╗██╔═══██╗██║ ██╔╝██╔════╝██╔══██╗██╔════╝╚██╗██╔╝")
+    fmt.Println("██████╔╝██║   ██║█████╔╝ █████╗  ██║  ██║█████╗   ╚███╔╝ ")
+    fmt.Println("██╔═══╝ ██║   ██║██╔═██╗ ██╔══╝  ██║  ██║██╔══╝   ██╔██╗ ")
+    fmt.Println("██║     ╚██████╔╝██║  ██╗███████╗██████╔╝███████╗██╔╝ ██╗")
+    fmt.Println("╚═╝      ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═════╝ ╚══════╝╚═╝  ╚═╝")
+	fmt.Println()
 	fmt.Println("\nUsage: ")
 	commands.CommandHelp(cfg)
 	for {
