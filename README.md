@@ -26,15 +26,25 @@ You will be greeted and a usage message will be displayed
 ```bash
 welcome to pokedex! ;)
 
+██████╗  ██████╗ ██╗  ██╗███████╗██████╗ ███████╗██╗  ██╗
+██╔══██╗██╔═══██╗██║ ██╔╝██╔════╝██╔══██╗██╔════╝╚██╗██╔╝
+██████╔╝██║   ██║█████╔╝ █████╗  ██║  ██║█████╗   ╚███╔╝
+██╔═══╝ ██║   ██║██╔═██╗ ██╔══╝  ██║  ██║██╔══╝   ██╔██╗
+██║     ╚██████╔╝██║  ██╗███████╗██████╔╝███████╗██╔╝ ██╗
+╚═╝      ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═════╝ ╚══════╝╚═╝  ╚═╝
+
+
 Usage:
 
+  exit: Exit the Pokedex
+  map: Displays the names of 20 location areas in the Pokemon world
+  mapb: Displays the previous 20 locations
   explore: Explores pokemon area by name
   catch: Catch a pokemon by name
   inspect: Insept pokemon from Pokedex
   pokedex: Check your collection of Pokemon
   help: Displays a help message
-  exit: Exit the Pokedex
-  map: Displays the names of 20 location areas in the Pokemon world
-  mapb: Displays the previous 20 locations
+
+Pokedex >
 ```
 # Enjoy and have fun 💙
