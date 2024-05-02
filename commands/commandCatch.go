@@ -41,6 +41,11 @@ func CommandCatch(cfg *api.Config) error {
 
     pokemon := &api.PokemonResponse{}
     json.Unmarshal(res, pokemon)
+
+    if len(pokemon.Name) <= 0 {
+        fmt.Println("Pokemon not Found...")
+        return err
+    }
    
     random_num, _ := rand.Int(rand.Reader, big.NewInt(POKEMON_MAX_BASE_XP))
     base_xp := big.NewInt(int64(pokemon.BaseExperience))
