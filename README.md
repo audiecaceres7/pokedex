@@ -14,7 +14,11 @@ Running this command you can install the git repo
 git clone https://github.com/audiecaceres7/pokedex/
 ```
 ## Usage 
-When the repo is done installing you can run this command to open pokedex
+When the repo is done installing enter the pokedex folder
+```bash
+cd pokedex
+```
+You can run this command to open pokedex
 ```bash
 ./pokedex
 ```
