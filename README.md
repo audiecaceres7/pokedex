@@ -1,4 +1,4 @@
-<img src="https://github.com/audiecaceres7/pokedex/assets/96566379/ff618b09-c493-41a1-b677-59f007d2ef70" width=250x250 img/>
+<img src="https://github.com/audiecaceres7/pokedex/assets/96566379/ff618b09-c493-41a1-b677-59f007d2ef70" width=150x150 img/>
 
 # pokedex 
 This is a CLI based on pokemon's famous tool for inspecting pokemons!
