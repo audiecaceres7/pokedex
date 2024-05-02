@@ -10,7 +10,7 @@ const (
 )
 
 func (cfg *Config) Get_pokemon_location(pageURL *string) ([]byte, error) {
-	url := baseURL + "/location-area/?limit=3"
+	url := baseURL + "/location-area/?limit=20"
     if pageURL != nil {
         url = *pageURL
     }
